@@ -5,14 +5,14 @@ A few of my recent pieces of work.
 
 ### Postdoctoral Research Projects
 
-1. [A genomic atlas of systemic interindividual epigenetic variation in humans](/sample_page)
+[A genomic atlas of systemic interindividual epigenetic variation in humans](/sample_page)
 <img src="images/corsiv_paper_fig1_2.jpg?raw=true"/>
-- [Publication in Genome Biology](https://rdcu.be/bKZL6) <br>
-- [Visualization System in ShinyR](https://corsiv.shinyapps.io/CoRSIV_Plotter/)<br>
-- [Github Repo](https://github.com/cjgunase/coRsiv)
+[Publication in Genome Biology](https://rdcu.be/bKZL6) <br>
+[Visualization System in ShinyR](https://corsiv.shinyapps.io/CoRSIV_Plotter/)<br>
+[Github Repo](https://github.com/cjgunase/coRsiv)
 
 <br><br>
-2. [Cancer risk prediction using blood based DNA methylation](/pdf/sample_presentation.pdf)
+[Cancer risk prediction using blood based DNA methylation](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 
