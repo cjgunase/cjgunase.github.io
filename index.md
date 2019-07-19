@@ -5,18 +5,15 @@ A few of my recent pieces of work.
 
 ### Postdoctoral Research Projects
 
-[A genomic atlas of systemic inerindividual epigenetic variation in humans](/sample_page)
+[A genomic atlas of systemic interindividual epigenetic variation in humans](/sample_page)
+<img src="images/corsiv_paper.jpg?raw=true"/>
+
+---
+[Cancer risk prediction using blood based DNA methylation](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
 
 ### Doctoral Research Projects
 
