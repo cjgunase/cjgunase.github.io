@@ -13,7 +13,7 @@ A few of my recent pieces of work.
 
 <br><br>
 [2. Cancer risk prediction using blood based DNA methylation](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/proj2.jpg?raw=true"/>
 
 
 
