@@ -22,6 +22,10 @@ A few of my recent pieces of work.
 
 ### Doctoral Research Projects (2013 Apr - 2017 Aug)
 
+[Thesis](https://digitalcommons.mtu.edu/etdr/431/)
+
+Publications & Bioinformatics web tools
+
 1. [TGMI: an efficient algorithm for identifying pathway regulators through evaluation of triple-gene mutual interaction](https://doi.org/10.1093/nar/gky210)
 <br>
 2. [ExactSearch: a web-based plant motif search tool](https://plantmethods.biomedcentral.com/articles/10.1186/s13007-016-0126-6)
