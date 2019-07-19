@@ -3,7 +3,7 @@ A few of my recent pieces of work.
 
 ---
 
-### Postdoctoral Research Projects
+### Postdoctoral Research Projects (2017 Aug- )
 
 [1. A genomic atlas of systemic interindividual epigenetic variation in humans](/sample_page)
 <img src="images/corsiv_paper_fig1_2.jpg?raw=true"/>
@@ -20,7 +20,7 @@ A few of my recent pieces of work.
 ---
 
 
-### Doctoral Research Projects
+### Doctoral Research Projects (2013 Apr - 2017 Aug)
 
 - [TGMI: an efficient algorithm for identifying pathway regulators through evaluation of triple-gene mutual interaction](https://doi.org/10.1093/nar/gky210)
 <br>
