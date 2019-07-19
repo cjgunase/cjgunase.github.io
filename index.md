@@ -3,7 +3,7 @@ A few of my recent pieces of work.
 
 ---
 
-### Category Name 1 
+### Postdoctoral Research Projects
 
 [Project 1 Title](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
@@ -18,7 +18,7 @@ A few of my recent pieces of work.
 
 ---
 
-### Category Name 2
+### Doctoral Research Projects
 
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
@@ -27,6 +27,17 @@ A few of my recent pieces of work.
 - [Project 5 Title](http://example.com/)
 
 ---
+
+### Science from Data
+
+- [Project 1 Title](http://example.com/)
+- [Project 2 Title](http://example.com/)
+- [Project 3 Title](http://example.com/)
+- [Project 4 Title](http://example.com/)
+- [Project 5 Title](http://example.com/)
+
+---
+
 
 
 
