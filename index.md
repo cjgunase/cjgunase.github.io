@@ -6,7 +6,7 @@ A few of my recent pieces of work.
 ### Postdoctoral Research Projects
 
 [A genomic atlas of systemic interindividual epigenetic variation in humans](/sample_page)
-<img src="images/corsiv_paper.jpg?raw=true"/>
+<img src="images/corsiv_paper_fig1_2.jpg?raw=true"/>
 
 ---
 [Cancer risk prediction using blood based DNA methylation](/pdf/sample_presentation.pdf)
