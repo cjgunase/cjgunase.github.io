@@ -1,14 +1,15 @@
 title: Chathura Gunasekara # your name (or website title) here
 logo: "/images/Gunasekara2s.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks) 
-  <a href="https://github.com/cjgunase/cjgunase.github.io/raw/master/pdf/Chathura%20Gunasekara_CV.pdf">CV</a> <br>
+  <a href="https://github.com/cjgunase/cjgunase.github.io/raw/master/pdf/Chathura%20Gunasekara_CV.pdf">CV</a>
+  | <a href="https://www.linkedin.com/in/cjgunase/">LinkedIn</a>  <br>
   gunaseka@bcm.edu <br>
   Baylor College of Medicine .Houston,TX
   <br>
   Ph.D. in Computational Science & Engineering .Michigan Tech. University, USA
   <br>
   B.S. in Computational Physics .University of Colombo, Sri Lanka
-  <a href="https://www.linkedin.com/in/cjgunase/">LinkedIn</a> 
+  
   
 theme: jekyll-theme-minimal
 google_analytics: UA-126720638-2 # your Google Analytics tracking ID here
