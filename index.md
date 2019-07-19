@@ -22,11 +22,12 @@ A few of my recent pieces of work.
 
 ### Doctoral Research Projects
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+- [TGMI: an efficient algorithm for identifying pathway regulators through evaluation of triple-gene mutual interaction](https://doi.org/10.1093/nar/gky210)
+
+- [ExactSearch: a web-based plant motif search tool](https://plantmethods.biomedcentral.com/articles/10.1186/s13007-016-0126-6)
+- [TF-Miner: A Pipeline for identifying regulators that govern biological pathways,processes or complex traits](http://sys.bio.mtu.edu/cluster/)
+- [Poplar Gene Expression Data Analysis Pipeline](http://sys.bio.mtu.edu/)
+- [Targeting Small RNAs for Destruction in Crops by Short Tandem Target Mimic (STTM) ](https://blossom.ffr.mtu.edu/)
 
 ---
 
