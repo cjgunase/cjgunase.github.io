@@ -5,7 +5,7 @@ A few of my recent pieces of work.
 
 ### Postdoctoral Research Projects
 
-[Project 1 Title](/sample_page)
+[A genomic atlas of systemic inerindividual epigenetic variation in humans](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
