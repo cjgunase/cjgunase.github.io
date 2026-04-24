@@ -440,16 +440,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-co-developed-the-agilent-sureselect-baylor-human-corsiv-panel-launched-enabling-cost-effective-population-scale-dna-methylation-profiling-now-in-use-across-multiple-labs-globally",
+          title: 'Co-developed the Agilent SureSelect Baylor Human CoRSIV Panel launched — enabling cost-effective population-scale...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-received-the-dr-dennis-m-bier-award-for-best-pediatric-nutrition-research-publication-from-baylor-college-of-medicine",
+          title: 'Received the Dr. Dennis M. Bier Award for Best Pediatric Nutrition Research Publication...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-new-paper-published-in-nucleic-acids-research-mouse-metastable-epialleles-are-extremely-rare-pmid-40694849",
+          title: 'New paper published in Nucleic Acids Research: Mouse metastable epialleles are extremely rare...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -511,21 +509,21 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("/assets/pdf/Gunasekara_CV.docx", "_blank");
         },
       },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%63%6A%67%75%6E%61%73%65@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/cjgunase", "_blank");
         },
       },{
         id: 'social-rss',
@@ -539,14 +537,7 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://scholar.google.com/citations?user=Psh5r5gAAAAJ", "_blank");
         },
       },{
       id: 'light-theme',
