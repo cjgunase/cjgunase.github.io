@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-06-05'
+  last_updated: '2026-06-22'
 papers:
   Psh5r5gAAAAJ:0EnyYjriUFMC:
-    citations: 32
+    citations: 33
     title: "A machine learning case\u2013control classifier for schizophrenia based on DNA methylation in blood"
     year: '2021'
   Psh5r5gAAAAJ:3fE2CSJIrl8C:
-    citations: 18
+    citations: 19
     title: Sex-specific epigenetic development in the mouse hypothalamic arcuate nucleus pinpoints human genomic regions associated with body mass index
     year: '2022'
   Psh5r5gAAAAJ:5nxA0vEk-isC:
@@ -30,7 +30,7 @@ papers:
     title: 'DR JUN ZHENG (Orcid ID: 0000-0002-3502-653X) Article type'
     year: Unknown Year
   Psh5r5gAAAAJ:MXK_kJrjxJIC:
-    citations: 44
+    citations: 47
     title: Systemic interindividual epigenetic variation in humans is associated with transposable elements and under strong genetic control
     year: '2023'
   Psh5r5gAAAAJ:Se3iqnhoufwC:
@@ -42,27 +42,31 @@ papers:
     title: Development of Bioinformatics Tools and Algorithms for Identifying Pathway Regulators, Inferring Gene Regulatory Relationships and Visualizing Gene Expression Data
     year: '2017'
   Psh5r5gAAAAJ:ULOm3_A8WrAC:
-    citations: 2
+    citations: 3
     title: Mouse metastable epialleles are extremely rare
     year: '2025'
   Psh5r5gAAAAJ:UeHWp8X0CEIC:
-    citations: 36
+    citations: 37
     title: Bottom-up GGM algorithm for constructing multilayered hierarchical gene regulatory networks that govern biological pathways or processes
     year: '2016'
   Psh5r5gAAAAJ:W7OEmFMy1HYC:
     citations: 28
     title: 'TGMI: an efficient algorithm for identifying pathway regulators through evaluation of triple-gene mutual interaction'
     year: '2018'
+  Psh5r5gAAAAJ:YOwf2qJgpHMC:
+    citations: 0
+    title: Systemic interindividual epigenetic variants link periconceptional environment to human fetal development
+    year: '2026'
   Psh5r5gAAAAJ:YsMSGLbcyi4C:
     citations: 62
     title: "Co\u2010expression analysis aids in the identification of genes in the cuticular wax pathway in maize"
     year: '2019'
   Psh5r5gAAAAJ:Zph67rFs4hoC:
-    citations: 1
+    citations: 2
     title: Human genomic regions of systemic interindividual epigenetic variation are implicated in neurodevelopmental and metabolic disorders
     year: '2025'
   Psh5r5gAAAAJ:_FxGoFyzp5QC:
-    citations: 22
+    citations: 23
     title: A new era for epigenetic epidemiology
     year: '2019'
   Psh5r5gAAAAJ:d1gkVwhDpl0C:
@@ -70,7 +74,7 @@ papers:
     title: Sensor information fusion architecture for virtual maritime environment
     year: '2012'
   Psh5r5gAAAAJ:eQOLeE2rZwMC:
-    citations: 107
+    citations: 109
     title: A resource for inactivation of microRNAs using short tandem target mimic technology in model and crop plants
     year: '2018'
   Psh5r5gAAAAJ:hqOjcs7Dif8C:
@@ -78,11 +82,11 @@ papers:
     title: Identification of biological pathway and process regulators using sparse partial least squares and triple-gene mutual interaction
     year: '2021'
   Psh5r5gAAAAJ:kNdYIx-mwKoC:
-    citations: 11
+    citations: 12
     title: Systemic interindividual DNA methylation variants in cattle share major hallmarks with those in humans
     year: '2024'
   Psh5r5gAAAAJ:roLk4NBRz8UC:
-    citations: 53
+    citations: 54
     title: Identification of cell type-specific methylation signals in bulk whole genome bisulfite sequencing data
     year: '2020'
   Psh5r5gAAAAJ:u-x6o8ySG0sC:
@@ -90,11 +94,11 @@ papers:
     title: Simulating narrow channel effect on surge motion of a ship in a virtual environment
     year: '2012'
   Psh5r5gAAAAJ:u5HHmVD_uO8C:
-    citations: 19
+    citations: 20
     title: "Pop\u2019s Pipes: poplar gene expression data analysis pipelines"
     year: '2014'
   Psh5r5gAAAAJ:ufrVoPGSRksC:
-    citations: 128
+    citations: 131
     title: A Genomic Atlas of Systemic Interindividual Epigenetic Variation in Humans
     year: '2019'
   Psh5r5gAAAAJ:zYLM7Y9cAGgC:
