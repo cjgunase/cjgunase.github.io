@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-22'
+  last_updated: '2026-06-26'
 papers:
   Psh5r5gAAAAJ:0EnyYjriUFMC:
     citations: 33
@@ -10,7 +10,7 @@ papers:
     title: Sex-specific epigenetic development in the mouse hypothalamic arcuate nucleus pinpoints human genomic regions associated with body mass index
     year: '2022'
   Psh5r5gAAAAJ:5nxA0vEk-isC:
-    citations: 21
+    citations: 22
     title: DNA methylation at a nutritionally sensitive region of the PAX8 gene is associated with thyroid volume and function in Gambian children
     year: '2021'
   Psh5r5gAAAAJ:9yKSN-GCB0IC:
@@ -30,7 +30,7 @@ papers:
     title: 'DR JUN ZHENG (Orcid ID: 0000-0002-3502-653X) Article type'
     year: Unknown Year
   Psh5r5gAAAAJ:MXK_kJrjxJIC:
-    citations: 47
+    citations: 48
     title: Systemic interindividual epigenetic variation in humans is associated with transposable elements and under strong genetic control
     year: '2023'
   Psh5r5gAAAAJ:Se3iqnhoufwC:
@@ -42,7 +42,7 @@ papers:
     title: Development of Bioinformatics Tools and Algorithms for Identifying Pathway Regulators, Inferring Gene Regulatory Relationships and Visualizing Gene Expression Data
     year: '2017'
   Psh5r5gAAAAJ:ULOm3_A8WrAC:
-    citations: 3
+    citations: 4
     title: Mouse metastable epialleles are extremely rare
     year: '2025'
   Psh5r5gAAAAJ:UeHWp8X0CEIC:
@@ -98,7 +98,7 @@ papers:
     title: "Pop\u2019s Pipes: poplar gene expression data analysis pipelines"
     year: '2014'
   Psh5r5gAAAAJ:ufrVoPGSRksC:
-    citations: 131
+    citations: 132
     title: A Genomic Atlas of Systemic Interindividual Epigenetic Variation in Humans
     year: '2019'
   Psh5r5gAAAAJ:zYLM7Y9cAGgC:
