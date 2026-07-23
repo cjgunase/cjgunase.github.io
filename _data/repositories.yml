@@ -1,14 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - cjgunase
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - cjgunase/AgenticAI_Skills
+  - cjgunase/taskflow-api
+  - cjgunase/DNA_Methylation_in_Male_Infertility
+  - cjgunase/TensorTonic-Solutions
+  - cjgunase/Bite_size_bioinformatics
+  - cjgunase/CoRSIV_Capture

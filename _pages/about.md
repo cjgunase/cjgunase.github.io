@@ -2,16 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: Bioinformatics · Machine Learning & AI · Data Engineering — <a href="https://www.bcm.edu/research/research-centers/children-s-nutrition-research-center">Baylor College of Medicine</a>, Houston, TX
+subtitle: Computational scientist building at the intersection of bioinformatics, machine learning, and AI.
 
 profile:
   align: right
   image: prof_pic.png
-  image_circular: false
+  image_circular: true
   more_info: >
-    <p>Children's Nutrition Research Center</p>
-    <p>Baylor College of Medicine</p>
-    <p>Houston, TX</p>
+    <p>Houston, Texas</p>
+    <p>Bioinformatics · ML/AI · Data Engineering</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -22,15 +21,31 @@ announcements:
   limit: 5
 
 latest_posts:
-  enabled: false
+  enabled: true
   scrollable: true
   limit: 3
 ---
 
-I am a computational scientist with 10+ years of experience designing and deploying production-grade genomics pipelines, machine learning models, and AI-driven research tools. I currently work as a Bioinformatics Programmer/Analyst II at the [Children's Nutrition Research Center, Baylor College of Medicine](https://www.bcm.edu/research/research-centers/children-s-nutrition-research-center) in Houston, TX.
+I am a computational scientist with more than a decade of experience building
+genomics pipelines, machine-learning models, and research software. I work at the
+[Children's Nutrition Research Center at Baylor College of Medicine](https://www.bcm.edu/research/research-centers/children-s-nutrition-research-center)
+in Houston.
 
-My research focuses on **epigenomics** — particularly DNA methylation, systemic interindividual variation, and the epigenetic basis of complex traits and disease. I am a co-developer of the [Agilent SureSelect Baylor Human CoRSIV Panel](https://www.agilent.com/) and the Xtra DNAm Array with TruDiagnostic, two commercialized genome-scale methylation profiling products now in use across multiple labs globally.
+My research focuses on **epigenomics**: DNA methylation, systemic interindividual
+variation, and the epigenetic basis of complex traits and disease. I co-developed
+the Agilent SureSelect Baylor Human CoRSIV Panel and the Xtra DNAm Array with
+TruDiagnostic.
 
-I hold a Ph.D. in Computational Science and Engineering from [Michigan Technological University](https://www.mtu.edu/) and a B.S. in Computational Physics from the [University of Colombo](https://cmb.ac.lk/), Sri Lanka. My first-author publications appear in *Genome Biology*, *Translational Psychiatry*, and *Nucleic Acids Research*.
+I hold a Ph.D. in Computational Science and Engineering from
+[Michigan Technological University](https://www.mtu.edu/) and a B.S. in
+Computational Physics from the [University of Colombo](https://cmb.ac.lk/). My
+work has appeared in _Genome Biology_, _Translational Psychiatry_, and
+_Nucleic Acids Research_.
 
-Alongside genomics research, I build scalable data infrastructure on HPC and cloud environments and have a growing portfolio of applied LLM and NLP systems for scientific research — including RAG-based literature QA tools and agentic bioinformatics pipeline orchestrators.
+This site is also my working notebook. I use it to document projects, explain what
+I am learning about deep learning and AI systems, and share the engineering behind
+research tools. The polished results matter, but so do the experiments, failures,
+and decisions that produced them.
+
+[Explore my projects](/projects/) · [Read the learning log](/blog/) ·
+[View publications](/publications/)
