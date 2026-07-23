@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-New paper published in *Nucleic Acids Research*: [Mouse metastable epialleles are extremely rare](https://pubmed.ncbi.nlm.nih.gov/40694849/) (PMID: 40694849).
+New paper published in _Nucleic Acids Research_: [Mouse metastable epialleles are extremely rare](https://pubmed.ncbi.nlm.nih.gov/40694849/) (PMID: 40694849).
