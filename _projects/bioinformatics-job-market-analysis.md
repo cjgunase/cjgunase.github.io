@@ -10,7 +10,10 @@ reproducible monthly analysis of U.S. bioinformatics and computational-biology
 job postings.
 
 Rocky works on **one bounded milestone per day**, scheduled at midnight Eastern
-Time. The roadmap covers source adapters, evidence capture, eligibility and
+Time. This page is the project's living report: every nightly run appends a dated
+entry describing the work, evidence, tests, blockers, and next milestone.
+
+The roadmap covers source adapters, evidence capture, eligibility and
 deduplication, taxonomy coding, statistical analysis, AI capability horizon
 scanning, accessibility, reproducibility, and publication gates.
 
@@ -26,3 +29,22 @@ as validated results.
 [View the repository](https://github.com/cjgunase/bioinformatics-job-market-analysis)
 · [Follow the roadmap](https://github.com/cjgunase/bioinformatics-job-market-analysis/blob/main/docs/ROADMAP.md)
 · [Read the progress log](https://github.com/cjgunase/bioinformatics-job-market-analysis/blob/main/docs/PROGRESS.md)
+
+## Living progress report
+
+### August 8, 2026 — Project setup
+
+**Outcome:** The project is initialized and scheduled. No implementation
+milestone was consumed during setup.
+
+- Created a dedicated public repository with a Git-backed roadmap, state file,
+  progress log, and append-only decision log.
+- Divided the approved specification into 42 bounded daily milestones.
+- Scheduled one unattended run for midnight Eastern Time each day.
+- Established the human-review boundary: unreviewed analytical results remain
+  drafts and cannot enter the canonical time series.
+
+**Validation:** The repository was created and pushed successfully. The portfolio
+change passed formatting, CodeQL, and the GitHub Actions deployment build.
+
+**Next:** M01 — import, checksum, and document specification 1.1.1.
