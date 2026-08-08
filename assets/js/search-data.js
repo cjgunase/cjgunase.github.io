@@ -81,6 +81,11 @@ ninja.data = [{
           description: "Experiments and reusable patterns for building capable AI agents.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/agentic-ai-skills/";
+            },},{id: "projects-bioinformatics-job-market-analysis",
+          title: 'Bioinformatics Job Market Analysis',
+          description: "A reproducible study of software-engineering and AI skills in bioinformatics hiring.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/bioinformatics-job-market-analysis/";
             },},{id: "projects-corsiv-epigenomics",
           title: 'CoRSIV Epigenomics',
           description: "Computational methods and pipelines for studying systemic epigenetic variation.",
