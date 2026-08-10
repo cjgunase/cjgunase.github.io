@@ -82,3 +82,35 @@ creating it is intentionally reserved for M02. No market findings were produced
 or presented as human-approved.
 
 **Next:** M02 — scaffold the Python package, pinned tooling, and baseline CI.
+
+### August 10, 2026 — M02 Python package and CI baseline
+
+**Outcome:** M02 was completed without starting M03. The repository now has an
+installable Python package, a fully locked development environment, and a
+baseline continuous-integration gate.
+
+- Added the `market_analysis` source package and an installation smoke test.
+- Pinned Python 3.13.11, uv 0.9.27, direct development tools, transitive
+  dependencies, and GitHub Actions revisions.
+- Added CI checks for linting, formatting, strict type checking, unit tests, and
+  source and wheel builds.
+- Documented reproducible setup and safeguards for restricted job-source data.
+
+**Evidence:** [Project PR
+#2](https://github.com/cjgunase/bioinformatics-job-market-analysis/pull/2)
+passed its required quality check and was merged to `main`. The resulting
+[package configuration](https://github.com/cjgunase/bioinformatics-job-market-analysis/blob/main/pyproject.toml),
+[CI workflow](https://github.com/cjgunase/bioinformatics-job-market-analysis/blob/main/.github/workflows/test.yml),
+and [dated progress record](https://github.com/cjgunase/bioinformatics-job-market-analysis/blob/main/docs/PROGRESS.md)
+are public and reviewable.
+
+**Validation:** A locked environment sync passed along with Ruff lint and format
+checks, strict mypy checking, pytest (1 test passed), source and wheel builds,
+JSON parsing, the specification checksum and byte comparison, and Git whitespace
+validation. The project PR's GitHub Actions quality job also passed.
+
+**Blockers or limitations:** None for M02. This was infrastructure-only work:
+no postings were collected, no applicant or restricted source data entered Git,
+and no market findings or human approvals are claimed.
+
+**Next:** M03 — define study configuration, controlled values, and run metadata.
