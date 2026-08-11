@@ -114,3 +114,41 @@ no postings were collected, no applicant or restricted source data entered Git,
 and no market findings or human approvals are claimed.
 
 **Next:** M03 — define study configuration, controlled values, and run metadata.
+
+### August 11, 2026 — M03 study configuration and run metadata
+
+**Outcome:** M03 was completed without starting M04. The study now has
+versioned, machine-readable defaults, exact non-taxonomy controlled values, and
+an explicitly pre-collection run-metadata example.
+
+- Preserved specification 1.1.1 scope, sampling, review, analysis, quality,
+  horizon-scan, and publication defaults in study configuration 1.0.0.
+- Documented controlled identifiers in codebook 1.0.0 while leaving the skill
+  taxonomy version unset for M05.
+- Added typed YAML and JSON loaders plus configuration-focused tests.
+- Kept collection timestamps null, all funnel counts at zero, and the human
+  reviewer absent so the example cannot imply collection or approval.
+
+**Evidence:** [Project PR
+#3](https://github.com/cjgunase/bioinformatics-job-market-analysis/pull/3)
+passed its quality check and was merged to `main`. The reviewable artifacts are
+the [study configuration](https://github.com/cjgunase/bioinformatics-job-market-analysis/blob/main/config/study.yaml),
+[controlled-value codebook](https://github.com/cjgunase/bioinformatics-job-market-analysis/blob/main/schemas/codebook.yaml),
+[run-metadata example](https://github.com/cjgunase/bioinformatics-job-market-analysis/blob/main/config/run_metadata.example.json),
+and [dated progress record](https://github.com/cjgunase/bioinformatics-job-market-analysis/blob/main/docs/PROGRESS.md).
+
+**Validation:** Locked dependency sync, Ruff lint and formatting, strict mypy,
+pytest (4 tests passed), source and wheel builds, JSON parsing, YAML loading, and
+Git whitespace checks passed locally. The PR quality job and the post-merge
+[`main` CI run](https://github.com/cjgunase/bioinformatics-job-market-analysis/actions/runs/31457503174)
+also passed. This portfolio entry passed Prettier and whitespace checks; the
+site build and deployment are validated by the portfolio repository's GitHub
+Actions because Docker and Ruby are unavailable on the automation host.
+
+**Blockers or limitations:** None for M03. No job collection was performed;
+candidate, included, reserve, evidence-validated, and human-reviewed counts are
+zero. Taxonomy work remains reserved for M05, and no human approval, canonical
+publication, or market finding is claimed. Local portfolio preview was limited
+by the unavailable Docker/Ruby toolchain.
+
+**Next:** M04 — implement JSON Schemas and schema-validation tests.
