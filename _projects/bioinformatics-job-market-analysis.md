@@ -152,3 +152,45 @@ publication, or market finding is claimed. Local portfolio preview was limited
 by the unavailable Docker/Ruby toolchain.
 
 **Next:** M04 — implement JSON Schemas and schema-validation tests.
+
+### August 12, 2026 — M04 JSON Schema contracts
+
+**Outcome:** M04 was completed without starting M05. The project now has strict,
+machine-readable contracts for run metadata, screened jobs, atomic requirements,
+and verbatim evidence records.
+
+- Added JSON Schema Draft 2020-12 contracts that require specification fields,
+  reject undeclared properties, preserve explicit nulls, and enforce formats,
+  hashes, identifier patterns, controlled values, and numeric ranges.
+- Added a fail-closed, format-aware validation helper.
+- Added schema self-validation, representative valid records, invalid-record
+  rejection tests, and checks that schema enums cannot drift from codebook 1.0.0.
+- Advanced the project state to M05 while leaving taxonomy identifiers unset and
+  all collection and human-review counts at zero.
+
+**Evidence:** [Project PR
+#4](https://github.com/cjgunase/bioinformatics-job-market-analysis/pull/4)
+passed its required quality check and was merged to `main`. The reviewable
+artifacts include the [schema
+contracts](https://github.com/cjgunase/bioinformatics-job-market-analysis/tree/main/schemas),
+[validation
+helper](https://github.com/cjgunase/bioinformatics-job-market-analysis/blob/main/src/market_analysis/schema.py),
+[schema
+tests](https://github.com/cjgunase/bioinformatics-job-market-analysis/blob/main/tests/test_schemas.py),
+and [dated progress
+record](https://github.com/cjgunase/bioinformatics-job-market-analysis/blob/main/docs/PROGRESS.md).
+
+**Validation:** Locked dependency sync, Ruff lint and formatting, strict mypy,
+pytest (32 tests passed), source and wheel builds, JSON parsing, and Git
+whitespace checks passed locally. The project PR quality job and the post-merge
+[`main` CI
+run](https://github.com/cjgunase/bioinformatics-job-market-analysis/actions/runs/31562417549)
+also passed.
+
+**Blockers or limitations:** None for M04. Cross-record foreign-key checks and
+ordered comparisons remain later pipeline work; taxonomy identifiers remain
+nullable until M05 establishes taxonomy 1.0.0. No postings were collected, no
+restricted source text or applicant data entered Git, and no human approval,
+canonical publication, or market finding is claimed.
+
+**Next:** M05 — establish taxonomy 1.0.0 and its governance changelog.
