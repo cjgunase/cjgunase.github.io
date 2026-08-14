@@ -194,3 +194,46 @@ restricted source text or applicant data entered Git, and no human approval,
 canonical publication, or market finding is claimed.
 
 **Next:** M05 — establish taxonomy 1.0.0 and its governance changelog.
+
+### August 14, 2026 — M05 taxonomy 1.0.0
+
+**Outcome:** M05 was completed without starting M06. The project now has a
+versioned, hierarchical taxonomy for coding explicit software-engineering,
+bioinformatics-context, AI, and durable AI-era competencies.
+
+- Added 187 skill nodes across 13 top-level categories from approved
+  specification 1.1.1 sections 8.1–8.13.
+- Added stable identifiers, definitions, inclusion and exclusion rules,
+  aliases, within-category parent links, tool and AI-related flags, and
+  lifecycle metadata.
+- Added append-only governance covering semantic versioning, human review,
+  deprecation, migration, backcasting, and time-series breaks.
+- Required taxonomy 1.0.0 in study configuration, run metadata, and atomic
+  requirement contracts.
+
+**Evidence:** [Project PR
+#5](https://github.com/cjgunase/bioinformatics-job-market-analysis/pull/5)
+passed its required quality check and was merged to `main`. Reviewable artifacts
+include [taxonomy
+1.0.0](https://github.com/cjgunase/bioinformatics-job-market-analysis/blob/main/taxonomy/taxonomy.yaml),
+the [taxonomy
+changelog](https://github.com/cjgunase/bioinformatics-job-market-analysis/blob/main/taxonomy/CHANGELOG.md),
+[taxonomy
+tests](https://github.com/cjgunase/bioinformatics-job-market-analysis/blob/main/tests/test_taxonomy.py),
+and the [dated progress
+record](https://github.com/cjgunase/bioinformatics-job-market-analysis/blob/main/docs/PROGRESS.md).
+
+**Validation:** Locked dependency sync, Ruff lint and formatting, strict mypy,
+pytest (39 tests passed), source and wheel builds, JSON parsing, and Git
+whitespace checks passed locally. The project PR quality job and the post-merge
+[`main` CI
+run](https://github.com/cjgunase/bioinformatics-job-market-analysis/actions/runs/31769161313)
+also passed.
+
+**Blockers or limitations:** None for M05. The taxonomy implementation baseline
+is pending initial human review and remains ineligible for canonical market
+findings. No postings were collected; candidate, included, reserve,
+evidence-validated, and human-reviewed counts remain zero. No restricted job
+text, applicant data, secrets, or human-approval claim entered Git.
+
+**Next:** M06 — add the versioned discovery-query catalogue.
