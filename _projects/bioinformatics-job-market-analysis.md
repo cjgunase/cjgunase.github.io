@@ -19,8 +19,10 @@ scanning, accessibility, reproducibility, and publication gates.
 
 ## Current status
 
-The project was initialized on August 8, 2026. It is following specification
-`BSE-JMA-001` version `1.1.1` through a 42-part daily roadmap.
+The project follows specification `BSE-JMA-001` version `1.1.1`. A dated,
+owner-authorized one-shot run completed the dependency-ready work through M37;
+the normal daily pacing rule is restored. M38 is blocked because the live pool
+cannot yet satisfy the required sample and diversity controls.
 
 Canonical market findings require human verification. Until that review occurs,
 analytical outputs will remain clearly labeled drafts rather than being presented
@@ -237,3 +239,49 @@ evidence-validated, and human-reviewed counts remain zero. No restricted job
 text, applicant data, secrets, or human-approval claim entered Git.
 
 **Next:** M06 — add the versioned discovery-query catalogue.
+
+### August 14, 2026 — M06–M37 completion run and sample insufficiency
+
+**Outcome:** The one-shot pacing override completed every dependency-ready
+milestone through M37. The run did not freeze a sample or generate market
+findings: 105 postings passed deterministic screening before human review, but
+the five-per-company cap leaves at most 80 of the required 150, before the
+20-record reserve.
+
+- Completed the acquisition, screening, evidence, deduplication, sampling,
+  extraction, analysis, horizon-scan, publication-draft, safety-gate, pipeline,
+  and synthetic integration foundations from M06 through M30.
+- Validated the documented public Greenhouse, Lever, and Ashby read contracts,
+  expanded the registry to 36 active employers across eight sectors, and
+  recorded 918 hash-chained discovery events.
+- Screened all 918 postings, retained hashes and audit excerpts no longer than
+  320 characters, found no exact duplicates, and queued eight near-duplicate
+  pairs for later human adjudication. Raw descriptions were not committed.
+- Took M37's specification-defined insufficiency branch without weakening
+  geography, eligibility, company caps, diversity, provenance, or human-review
+  requirements. M38–M42 remain dependency-blocked.
+
+**Evidence:** [Project PR
+#6](https://github.com/cjgunase/bioinformatics-job-market-analysis/pull/6)
+passed its required quality check and was merged to `main`. The repository
+contains the [insufficiency
+report](https://github.com/cjgunase/bioinformatics-job-market-analysis/blob/main/reports/2026-08/insufficiency_report.md),
+[machine-readable screening
+report](https://github.com/cjgunase/bioinformatics-job-market-analysis/blob/main/reports/2026-08/live_pool_screening.json),
+and [updated roadmap and state](https://github.com/cjgunase/bioinformatics-job-market-analysis/blob/main/docs/ROADMAP.md).
+
+**Validation:** Ruff lint and format checks, strict mypy, 133 pytest tests,
+source and wheel builds, JSON validation, privacy, copyright, link, schema,
+provenance, and Git whitespace checks passed locally. The post-merge [`main` CI
+run](https://github.com/cjgunase/bioinformatics-job-market-analysis/actions/runs/31772803384)
+also passed.
+
+**Blockers or limitations:** The cap-usable pool is 70 short of the required
+sample and 90 short of sample plus reserve. No manifest, canonical estimate,
+publication candidate, time-series update, or human-approval claim was produced.
+The dated pacing override is closed, and no recurring automation was created or
+re-enabled.
+
+**Next:** Expand the publicly observed employer registry and run another
+one-shot collection within the allowed seven-day window. M38 can begin only
+after a compliant 150-record sample and 20-record reserve can be frozen.
